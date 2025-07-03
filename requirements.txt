@@ -3,6 +3,6 @@ uvicorn
 python-multipart
 Pillow
 sentencepiece
---find-links https://download.pytorch.org/whl/cpu/torch_stable.html
-torch==2.1.0+cpu
-transformers==4.35.2
+transformers
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
